@@ -1,0 +1,40 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Từ tổng quan đến chi tiết
+*/
+
+/* 
+1. Position
+2. Size (width, height)
+3. Color
+4. Pattern / Type (font type, circle, square)
+*/
+
+#main {
+
+}
+
+#header {
+    height: 46.5px;
+    background-color: #000;
+}
+
+#slider {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}
