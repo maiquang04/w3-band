@@ -22,6 +22,10 @@ html {
 4. Pattern / Type (font type, circle, square)
 */
 
+.clear {
+    clear: both;
+}
+
 #main {
 
 }
@@ -79,7 +83,7 @@ html {
 }
 
 #nav .subnav {
-    /* display: none; */
+    display: none;
     min-width: 160px;
     position: absolute;
     top: 100%;
@@ -172,6 +176,27 @@ html {
     text-align: justify;
     font-size: 15px;
     line-height: 1.4;
+}
+
+#content .members-list {
+    margin-top: 48px;
+}
+
+#content .member-item {
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+
+}
+
+#content .member-name {
+    font-size: 15px;
+}
+
+#content .member-img {
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 4px;
 }
 
 #footer {
