@@ -49,6 +49,8 @@ html {
     margin-top: 15px;
     border: none;
     text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 .btn:hover {
@@ -213,7 +215,7 @@ html {
     position: relative;
     margin-top: 46.5px;
     padding-top: 50%;
-    background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat;
+    background: url('../img/slider/slider1.jpg') top center / cover no-repeat;
 }
 
 .text-content {
@@ -231,6 +233,7 @@ html {
 .text-description {
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 }
 
 #content {
@@ -367,6 +370,14 @@ html {
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 16px;
+}
+
+.contact-info a {
+    opacity: 0.9;
+}
+
+.contact-info a:hover {
+    opacity: 1;
 }
 
 .contact-info i[class*="ti-"] {
